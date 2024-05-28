@@ -1,25 +1,11 @@
 .carrossel__titulo{
 	background-color: var(--preto0);
 	text-align: center;
-	padding: 1em 0;
-	font-weight: 700;
-	font-size: 20px;
+	padding: 0 0 1em 0;
+	font-weight: 600;
+	font-size: 2.5em;
 	color: var(--branco);
 	text-transform: uppercase;
-}
-
-.swiper-slide img{
-	width: 100%;
-}
-
-.swiper-button-prev,
-.swiper-button-next{
-	display: none;
-}
-
-.swiper-pagination{
-	position:initial;
-	margin: 0.5em 0;
 }
 
 .card{
