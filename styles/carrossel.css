@@ -1,0 +1,100 @@
+.carrossel__titulo{
+	background-color: var(--preto0);
+	text-align: center;
+	padding: 1em 0;
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--branco);
+	text-transform: uppercase;
+}
+
+.swiper-slide img{
+	width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+	display: none;
+}
+
+.swiper-pagination{
+	position:initial;
+	margin: 0.5em 0;
+}
+
+.card{
+	background-color: var(--branco);
+	padding: 1em;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin: 2em 10em;
+}
+
+.card__border{
+	padding: 1em;
+}
+
+.card__descricao{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5em;
+}
+
+.descricao{
+	padding-right: 0.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.descricao__imagem{
+	width: 100%;
+	margin-bottom: 0.5em;
+	border-radius: 4px;
+}
+
+.card__botoes{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.botoes{
+	display: flex;
+	flex-direction: row;
+} 
+
+.descricao__titulo{
+	font-weight: 700;
+	color: var(--laranja);
+}
+
+.descricao__titulo-item{
+	font-weight: 500;
+	font-size: 20px;
+	color: var(--azul);
+	margin: 1em 0 0.3em 0;
+}
+
+.descricao__texto{
+	color: var(--azul);
+	font-weight: 400;
+	margin-bottom: 0.5em;
+	margin-right:20em;
+	text-align: justify;
+}
+
+.botoes__item{
+	margin: 0.5em;
+}
+
+.botoes__ancora{
+	background-color: var(--laranja);
+	padding: 1em 5em;
+	text-decoration: none;
+	color: var(--branco);
+	font-weight: 700;
+	font-size: 16px;
+	border-radius: 4px;
+	white-space: nowrap;
+}

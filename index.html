@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vitinho Vendas</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header class="cabecalho">
+		<div class="container">
+			<h1 class="nome">Vitinho Vendas</h1>
+		</div>
+
+		<div class="container">
+				<ul class="container__lista">
+					<li class="container__lista__items"> <a class="container__lista__items-" href="index.html">Home</a></li>
+					<li class="container__lista__items"> <a class="container__lista__items-" href="produtos.html">Produtos</a></li>
+					<li class="container__lista__items"> <a class="container__lista__items-"href="contato.html">Contato</a></li>
+				</ul>
+		</div>
+	</header>
+	<main>
+		
+		<section class="banner">
+			<div class="banner__conteudo">
+				<h2 class="banner__titulo">Já sabe por onde começar?</h2>
+				<p class="banner__texto">Encontre em nossa biblioteca, tudo sobre o universo de Game Of Thrones!</p>
+				<input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+			</div>
+		</section>
+
+		<section class="carrossel">
+			<h2 class="carrossel__titulo">Coleções</h2>
+
+			<!-- Slider main container -->
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide"><img class="swiper__imgaem" src="img/colecaoLivros.png" alt="livro ascensão de kyoshi"></div>
+					<div class="swiper-slide"><img class="swiper__imgaem" src="img/colecaoLivros.png" alt="Livro da korra"></div>
+					<div class="swiper-slide"><img class="swiper__imgaem" src="img/colecaoLivros.png" alt="Livro yangchen"></div>
+					<div class="swiper-slide"><img class="swiper__imgaem" src="img/colecaoLivros.png" alt="Livro avatar"></div>
+					<div class="swiper-slide"><img class="swiper__imgaem" src="img/colecaoLivros.png" alt="Livro escuridão de kyoshi"></div>
+					<div class="swiper-slide"><img class="swiper__imgaem" src="img/colecaoLivros.png" alt="Livro avatar avatar smoke"></div>
+					...
+				</div>
+		
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+
+				<!-- hold this slide for 2 seconds -->
+				<div class="swiper-slide" data-swiper-autoplay="2000">
+			
+			</div>
+
+			<section class="card__vendas__container">
+				<h2 class="card__vendas__titulo">Livros em Alta</h2>
+				<div class="card__vendas">
+					<div class="card__vendas__item">
+						<h2 class="card__vendas__item__titulo">A Guerra dos Tronos</h2>
+						<img class="card__vendas__imagem" src="img/guerradostronos.jpg" alt="livro guerra dos tronos"/>
+						<h3 class="card__vendas__preco">Preço: R$72,12</h3>
+						<div class="aa">
+							<button class="card__vendas__botao" id="guerraTrono">Comprar</button>
+							
+							
+						</div>
+					</div>
+					<div class="card__vendas__item">
+						<h2 class="card__vendas__item__titulo">Fogo & Sangue</h2>
+						<img class="card__vendas__imagem" src="img/fogoesangue.jpg" alt="livro fogo e sangue"/>
+						<h3 class="card__vendas__preco">Preço: R$70,81</h3>
+						<div class="aa">
+							<button class="card__vendas__botao" id="fogoSangue">Comprar</button>
+						</div>
+					</div>
+					<div class="card__vendas__item">
+						<h2 class="card__vendas__item__titulo">A Fúria dos Reis</h2>
+						<img class="card__vendas__imagem" src="img/furiadosreis.jpg" alt="livro furia dos reis"/>
+						<h3 class="card__vendas__preco">Preço: R$74,33</h3>
+						<div class="aa">
+							<button class="card__vendas__botao" id="furiaRei">Comprar</button>
+						</div>
+					</div>
+					<div class="card__vendas__item">
+						<h2 class="card__vendas__item__titulo">O Cavaleiro dos 7 Reinos</h2>
+						<img class="card__vendas__imagem" src="img/cavaleiro7reinos.jpg" alt="livro cavaleiro dos sete reinos"/>
+						<h3 class="card__vendas__preco">Preço: R$74,90</h3>
+						<div class="aa">
+							<button class="card__vendas__botao" id="cavaleiro">Comprar</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="card__border">
+				<div class="card">
+					<div class="card__descricao">
+
+						<div class="descricao">
+							<div>
+								<h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+								<h2 class="descricao__titulo-item">Fogo & Sangue</h2>
+								<p class="descricao__texto">Séculos antes dos eventos de A guerra dos tronos, a Casa Targaryen – única família de senhores dos dragões a sobreviver à Destruição de Valíria – tomou residência em Pedra do Dragão. A história de Fogo e sangue começa com o lendário Aegon, o Conquistador, criador do Trono de Ferro, e segue narrando as gerações de Targaryen que lutaram para manter o assento, até a guerra civil que quase destruiu sua dinastia.
+								O que realmente aconteceu durante a Dança dos Dragões? Por que era tão perigoso visitar Valíria depois da Destruição? Qual é a origem dos três ovos de dragão que chegaram a Daenerys? Essas são algumas das questões respondidas neste livro essencial, relatadas por um sábio meistre da Cidadela.
+								Ricamente ilustrado com mais de oitenta imagens em preto e branco assinadas pelo artista Dough Wheatley, Fogo e sangue dará aos leitores uma nova e completa visão da fascinante história de Westeros – um livro imperdível para os fãs do autor.</p>
+							</div>
+							<div>
+								<ul class="botoes">
+									<li class="botoes__item"><img src="img/favoritos.svg" alt="imagem" class="botoes__imagem"></li>
+									<li class="botoes__item"><img src="img/compras.svg" alt="imagem" class="botoes__imagem"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="card__botoes">
+							<img src="img/fogoesangue.jpg" alt="livro fogo e sangue" class="descricao__imagem">
+							<a href="#" class="botoes__ancora">Saiba mais</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+
+		<section class="topicos">
+			<h2 class="topicos__titulo">Tópicos visitados recentemente</h2>
+			<ul class="topicos__lista">
+				<li class="topicos__item"><a href="#" class="topicos__link">Starks</a></li>
+				<li class="topicos__item"><a href="#" class="topicos__link">Fogo e Sangue</a></li>
+				<li class="topicos__item"><a href="#" class="topicos__link">Trono de ferro</a></li>
+				<li class="topicos__item"><a href="#" class="topicos__link">Rei do norte</a></li>
+			</ul>
+		</section>
+
+		<section class="novidades">
+			<h2 class="novidades__titulo">Fique por dentro das novidades!</h2>
+			<p class="novidades__texto">Atualizações de novos livros, séries e muito mais.</p>
+			<input type="email" placeholder="Cadastre seu e-mail" class="novidades__email">
+		</section>
+		<hr/>
+	</main>
+	<footer class="rodape">
+		<h3 class="rodape__titulo">Grupo Panda</h3>
+	</footer>
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+			spaceBetween: 10,
+			slidesPerView: 3,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+			},
+		});
+	</script>
+</body>
+</html>

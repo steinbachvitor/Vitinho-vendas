@@ -1,0 +1,35 @@
+.novidades{
+	padding: 5em;
+	background-color: var(--branco);
+	text-align: center;
+}
+
+.novidades__titulo{
+	color: var(--preto0);
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.novidades__texto{
+	font-weight: 300;
+	font-size: 14px;
+	padding: 0.5em 0.2em;
+	color: var(--preto0);
+}
+
+.novidades__email{
+	border-radius: 24px;
+	border: 1px solid var(--preto0);
+	padding: 1em;
+	width: 90%;
+	color: var(--preto0);
+	text-align: center;
+}
+
+.novidades__email::placeholder{
+	background-image: url("../img/email.svg");
+	background-repeat: no-repeat;
+	color: var(--preto0);
+	background-position: 25%;
+	padding-left: 1.5em;
+}
